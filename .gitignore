@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Logs and SQLite DBs
+*.log
+*.sqlite3
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dataset (Parquet files)
+*.parquet
+
+# MacOS files
+.DS_Store
+
+# Others
+*.egg-info/
+dist/
+build/
